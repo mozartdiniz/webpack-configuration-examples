@@ -7,7 +7,8 @@
         "html-generate": "webpack --config ./wp.html-generate.config.js",
         "increase-inject-version": "npm version patch && webpack --config ./wp.version-inject.config.js",
         "process-env": "webpack --config ./wp.process-env.config.js",
-        "dev": "webpack-dev-server --config ./wp.dev-server.config.js --progress --colors"
+        "dev": "webpack-dev-server --config ./wp.dev-server.config.js --progress --colors",
+        "code-splitting-vendor": "webpack --config ./wp.code-splitting-vendor.config.js"
     },
     "author": "",
     "license": "ISC",
